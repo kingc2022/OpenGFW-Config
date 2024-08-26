@@ -5,5 +5,5 @@ Description=OpenGFW
 WantedBy=network.target
 
 [Service]
-ExecStart=/opt/opengfw/OpenGFW -c config.yml rules.yml
-WorkingDirectory=/opt/opengfw
+ExecStart=/root/opengfw/OpenGFW -c config.yml rules.yml
+WorkingDirectory=/root/opengfw
